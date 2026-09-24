@@ -41,7 +41,7 @@ export default function TokenDeleteDialog({ token, onDelete, children }: TokenDe
 
   const ZTokenDeleteDialogSchema = z.object({
     tokenName: z.literal(deleteMessage, {
-      errorMap: () => ({ message: _(msg`You must enter '${deleteMessage}' to proceed`) }),
+      errorMap: () => ({ message: _(msg`You must enter "${deleteMessage}" to proceed`) }),
     }),
   });
 

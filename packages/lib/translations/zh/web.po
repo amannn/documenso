@@ -230,7 +230,7 @@ msgstr "{0, plural, other {# 位收件人}}"
 #. placeholder {4}: progress.totalPages
 #: apps/remix/app/components/dialogs/ai-field-detection-dialog.tsx
 msgid "{0, plural, one {Page {1} of {2} - # field found} other {Page {3} of {4} - # fields found}}"
-msgstr "{0, plural, other {第 {1} 页，共 {2} 页 - 找到 # 个字段}}"
+msgstr "{0, plural, other {第 {3} 页，共 {4} 页 - 找到 # 个字段}}"
 
 #. placeholder {0}: progress.recipientsDetected
 #. placeholder {1}: progress.pagesProcessed
@@ -239,7 +239,7 @@ msgstr "{0, plural, other {第 {1} 页，共 {2} 页 - 找到 # 个字段}}"
 #. placeholder {4}: progress.totalPages
 #: apps/remix/app/components/dialogs/ai-recipient-detection-dialog.tsx
 msgid "{0, plural, one {Page {1} of {2} - # recipient found} other {Page {3} of {4} - # recipients found}}"
-msgstr "{0, plural, other {第 {1} 页，共 {2} 页 - 找到 # 位收件人}}"
+msgstr "{0, plural, other {第 {3} 页，共 {4} 页 - 找到 # 位收件人}}"
 
 #. placeholder {0}: detectedRecipients.length
 #: apps/remix/app/components/general/envelope-editor/envelope-editor-recipient-form.tsx
@@ -477,7 +477,7 @@ msgid "{recipientName} {action} a document by using one of your direct links"
 msgstr "{recipientName} 通过使用您的某个直链 {action} 了一个文档"
 
 #: packages/email/templates/document-rejected.tsx
-msgid "{recipientName} has rejected the document '{documentName}'"
+msgid "{recipientName} has rejected the document \"{documentName}\""
 msgstr "{recipientName} 已拒签文档“{documentName}”"
 
 #: packages/email/template-components/template-document-recipient-signed.tsx
@@ -14585,7 +14585,7 @@ msgid "You have reached your document limit. <0>Upgrade your account to continue
 msgstr "你已达到文档数量上限。<0>升级账号以继续！</0>"
 
 #: packages/email/templates/document-rejection-confirmed.tsx
-msgid "You have rejected the document '{documentName}'"
+msgid "You have rejected the document \"{documentName}\""
 msgstr "您已拒签文档“{documentName}”"
 
 #: apps/remix/app/components/embed/embed-document-rejected.tsx
@@ -14671,7 +14671,7 @@ msgstr "你已将此文档移动到团队"
 #: apps/remix/app/components/dialogs/team-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/token-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/webhook-delete-dialog.tsx
-msgid "You must enter '{deleteMessage}' to proceed"
+msgid "You must enter \"{deleteMessage}\" to proceed"
 msgstr "你必须输入“{deleteMessage}”才能继续"
 
 #: apps/remix/app/components/dialogs/envelope-redistribute-dialog.tsx
@@ -14680,7 +14680,7 @@ msgstr "您必须至少选择一项"
 
 #: apps/remix/app/components/dialogs/folder-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/organisation-email-domain-delete-dialog.tsx
-msgid "You must type '{deleteMessage}' to confirm"
+msgid "You must type \"{deleteMessage}\" to confirm"
 msgstr "您必须输入“{deleteMessage}”以确认"
 
 #: apps/remix/app/components/general/envelope-editor/envelope-editor-fields-page.tsx

@@ -477,7 +477,7 @@ msgid "{recipientName} {action} a document by using one of your direct links"
 msgstr "Za pomocą jednego z Twoich bezpośrednich linków {action} dokument. Autor czynności: {recipientName}."
 
 #: packages/email/templates/document-rejected.tsx
-msgid "{recipientName} has rejected the document '{documentName}'"
+msgid "{recipientName} has rejected the document \"{documentName}\""
 msgstr "Użytkownik {recipientName} odrzucił dokument „{documentName}”"
 
 #: packages/email/template-components/template-document-recipient-signed.tsx
@@ -14611,7 +14611,7 @@ msgid "You have reached your document limit. <0>Upgrade your account to continue
 msgstr "Osiągnięto maksymalną liczbę dokumentów. <0>Ulepsz konto, aby kontynuować!</0>"
 
 #: packages/email/templates/document-rejection-confirmed.tsx
-msgid "You have rejected the document '{documentName}'"
+msgid "You have rejected the document \"{documentName}\""
 msgstr "Dokument „{documentName}” został odrzucony"
 
 #: apps/remix/app/components/embed/embed-document-rejected.tsx
@@ -14697,7 +14697,7 @@ msgstr "Przeniosłeś dokument do zespołu"
 #: apps/remix/app/components/dialogs/team-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/token-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/webhook-delete-dialog.tsx
-msgid "You must enter '{deleteMessage}' to proceed"
+msgid "You must enter \"{deleteMessage}\" to proceed"
 msgstr "Wpisz „{deleteMessage}”, aby kontynuować"
 
 #: apps/remix/app/components/dialogs/envelope-redistribute-dialog.tsx
@@ -14706,7 +14706,7 @@ msgstr "Wybierz co najmniej jednego odbiorcę"
 
 #: apps/remix/app/components/dialogs/folder-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/organisation-email-domain-delete-dialog.tsx
-msgid "You must type '{deleteMessage}' to confirm"
+msgid "You must type \"{deleteMessage}\" to confirm"
 msgstr "Wpisz „{deleteMessage}”, aby potwierdzić"
 
 #: apps/remix/app/components/general/envelope-editor/envelope-editor-fields-page.tsx

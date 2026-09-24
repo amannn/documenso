@@ -41,7 +41,7 @@ export const AdminOrganisationDeleteDialog = ({
 
   const ZAdminDeleteOrganisationFormSchema = z.object({
     organisationName: z.literal(deleteMessage, {
-      errorMap: () => ({ message: t`You must enter '${deleteMessage}' to proceed` }),
+      errorMap: () => ({ message: t`You must enter "${deleteMessage}" to proceed` }),
     }),
     sendEmailToOwner: z.boolean(),
   });

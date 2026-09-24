@@ -41,7 +41,7 @@ export const WebhookDeleteDialog = ({ webhook, children }: WebhookDeleteDialogPr
 
   const ZDeleteWebhookFormSchema = z.object({
     webhookUrl: z.literal(deleteMessage, {
-      errorMap: () => ({ message: _(msg`You must enter '${deleteMessage}' to proceed`) }),
+      errorMap: () => ({ message: _(msg`You must enter "${deleteMessage}" to proceed`) }),
     }),
   });
 

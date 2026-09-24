@@ -477,8 +477,8 @@ msgid "{recipientName} {action} a document by using one of your direct links"
 msgstr "{recipientName} {action} un documento utilizzando uno dei tuoi link diretti"
 
 #: packages/email/templates/document-rejected.tsx
-msgid "{recipientName} has rejected the document '{documentName}'"
-msgstr "{recipientName} ha rifiutato il documento '{documentName}'"
+msgid "{recipientName} has rejected the document \"{documentName}\""
+msgstr "{recipientName} ha rifiutato il documento \"{documentName}\""
 
 #: packages/email/template-components/template-document-recipient-signed.tsx
 msgid "{recipientReference} has completed signing the document."
@@ -904,11 +904,11 @@ msgstr "1 Organizzazione gratuita rimasta"
 
 #: apps/remix/app/components/dialogs/token-create-dialog.tsx
 msgid "1 month"
-msgstr "{VAR_PLURAL, select, one {1 mese} other {# mesi}}"
+msgstr "1 mese"
 
 #: apps/remix/app/components/dialogs/token-create-dialog.tsx
 msgid "12 months"
-msgstr "{VAR_PLURAL, select, one {1 mese} other {12 mesi}}"
+msgstr "12 mesi"
 
 #: apps/remix/app/components/general/document-signing/document-signing-auth-dialog.tsx
 msgid "2FA"
@@ -924,7 +924,7 @@ msgstr "Token 2FA (autenticazione a due fattori)"
 
 #: apps/remix/app/components/dialogs/token-create-dialog.tsx
 msgid "3 months"
-msgstr "{VAR_PLURAL, select, one {1 mese} other {3 mesi}}"
+msgstr "3 mesi"
 
 #: apps/remix/app/routes/_unauthenticated+/organisation.sso.confirmation.$token.tsx
 msgid "400 Error"
@@ -1002,11 +1002,11 @@ msgstr "500 Errore Interno del Server"
 
 #: apps/remix/app/components/dialogs/token-create-dialog.tsx
 msgid "6 months"
-msgstr "{VAR_PLURAL, select, one {1 mese} other {6 mesi}}"
+msgstr "6 mesi"
 
 #: apps/remix/app/components/dialogs/token-create-dialog.tsx
 msgid "7 days"
-msgstr "{VAR_PLURAL, select, one {1 giorno} other {7 giorni}}"
+msgstr "7 giorni"
 
 #: apps/remix/app/components/forms/send-confirmation-email.tsx
 msgid "A confirmation email has been sent, and it should arrive in your inbox shortly."
@@ -14585,8 +14585,8 @@ msgid "You have reached your document limit. <0>Upgrade your account to continue
 msgstr "Hai raggiunto il tuo limite di documenti. <0>Aggiorna il tuo account per continuare!</0>"
 
 #: packages/email/templates/document-rejection-confirmed.tsx
-msgid "You have rejected the document '{documentName}'"
-msgstr "Hai rifiutato il documento '{documentName}'"
+msgid "You have rejected the document \"{documentName}\""
+msgstr "Hai rifiutato il documento \"{documentName}\""
 
 #: apps/remix/app/components/embed/embed-document-rejected.tsx
 #: apps/remix/app/routes/_recipient+/sign.$token+/rejected.tsx
@@ -14671,8 +14671,8 @@ msgstr "Hai spostato il documento al team"
 #: apps/remix/app/components/dialogs/team-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/token-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/webhook-delete-dialog.tsx
-msgid "You must enter '{deleteMessage}' to proceed"
-msgstr "Devi inserire '{deleteMessage}' per procedere"
+msgid "You must enter \"{deleteMessage}\" to proceed"
+msgstr "Devi inserire \"{deleteMessage}\" per procedere"
 
 #: apps/remix/app/components/dialogs/envelope-redistribute-dialog.tsx
 msgid "You must select at least one item"
@@ -14680,8 +14680,8 @@ msgstr "Devi selezionare almeno un elemento"
 
 #: apps/remix/app/components/dialogs/folder-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/organisation-email-domain-delete-dialog.tsx
-msgid "You must type '{deleteMessage}' to confirm"
-msgstr "Devi digitare '{deleteMessage}' per confermare"
+msgid "You must type \"{deleteMessage}\" to confirm"
+msgstr "Devi digitare \"{deleteMessage}\" per confermare"
 
 #: apps/remix/app/components/general/envelope-editor/envelope-editor-fields-page.tsx
 msgid "You need at least one recipient to add fields"
