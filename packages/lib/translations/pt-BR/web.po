@@ -472,8 +472,8 @@ msgid "{recipientName} {action} a document by using one of your direct links"
 msgstr "{recipientName} {action} um documento usando um de seus links diretos"
 
 #: packages/email/templates/document-rejected.tsx
-msgid "{recipientName} has rejected the document '{documentName}'"
-msgstr "{recipientName} rejeitou o documento '{documentName}'"
+msgid "{recipientName} has rejected the document \"{documentName}\""
+msgstr "{recipientName} rejeitou o documento \"{documentName}\""
 
 #: packages/email/template-components/template-document-recipient-signed.tsx
 msgid "{recipientReference} has completed signing the document."
@@ -14580,8 +14580,8 @@ msgid "You have reached your document limit. <0>Upgrade your account to continue
 msgstr "Você atingiu seu limite de documentos. <0>Atualize sua conta para continuar!</0>"
 
 #: packages/email/templates/document-rejection-confirmed.tsx
-msgid "You have rejected the document '{documentName}'"
-msgstr "Você rejeitou o documento '{documentName}'"
+msgid "You have rejected the document \"{documentName}\""
+msgstr "Você rejeitou o documento \"{documentName}\""
 
 #: apps/remix/app/components/embed/embed-document-rejected.tsx
 #: apps/remix/app/routes/_recipient+/sign.$token+/rejected.tsx
@@ -14666,8 +14666,8 @@ msgstr ""
 #: apps/remix/app/components/dialogs/team-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/token-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/webhook-delete-dialog.tsx
-msgid "You must enter '{deleteMessage}' to proceed"
-msgstr "Você deve digitar '{deleteMessage}' para prosseguir"
+msgid "You must enter \"{deleteMessage}\" to proceed"
+msgstr "Você deve digitar \"{deleteMessage}\" para prosseguir"
 
 #: apps/remix/app/components/dialogs/envelope-redistribute-dialog.tsx
 msgid "You must select at least one item"
@@ -14675,8 +14675,8 @@ msgstr "Você deve selecionar pelo menos um item"
 
 #: apps/remix/app/components/dialogs/folder-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/organisation-email-domain-delete-dialog.tsx
-msgid "You must type '{deleteMessage}' to confirm"
-msgstr "Você deve digitar '{deleteMessage}' para confirmar"
+msgid "You must type \"{deleteMessage}\" to confirm"
+msgstr "Você deve digitar \"{deleteMessage}\" para confirmar"
 
 #: apps/remix/app/components/general/envelope-editor/envelope-editor-fields-page.tsx
 msgid "You need at least one recipient to add fields"

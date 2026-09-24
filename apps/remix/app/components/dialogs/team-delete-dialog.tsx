@@ -49,7 +49,7 @@ export const TeamDeleteDialog = ({ trigger, teamId, teamName, redirectTo }: Team
 
   const ZDeleteTeamFormSchema = z.object({
     teamName: z.literal(deleteMessage, {
-      errorMap: () => ({ message: _(msg`You must enter '${deleteMessage}' to proceed`) }),
+      errorMap: () => ({ message: _(msg`You must enter "${deleteMessage}" to proceed`) }),
     }),
     transferTeamId: z.string().optional(),
   });

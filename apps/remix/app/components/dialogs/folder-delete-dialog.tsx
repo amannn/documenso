@@ -37,7 +37,7 @@ export const FolderDeleteDialog = ({ folder, isOpen, onOpenChange }: FolderDelet
 
   const ZDeleteFolderFormSchema = z.object({
     confirmText: z.literal(deleteMessage, {
-      errorMap: () => ({ message: t`You must type '${deleteMessage}' to confirm` }),
+      errorMap: () => ({ message: t`You must type "${deleteMessage}" to confirm` }),
     }),
   });
 

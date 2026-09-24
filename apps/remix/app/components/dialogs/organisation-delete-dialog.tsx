@@ -42,7 +42,7 @@ export const OrganisationDeleteDialog = ({ trigger }: OrganisationDeleteDialogPr
 
   const ZDeleteOrganisationFormSchema = z.object({
     organisationName: z.literal(deleteMessage, {
-      errorMap: () => ({ message: _(msg`You must enter '${deleteMessage}' to proceed`) }),
+      errorMap: () => ({ message: _(msg`You must enter "${deleteMessage}" to proceed`) }),
     }),
   });
 

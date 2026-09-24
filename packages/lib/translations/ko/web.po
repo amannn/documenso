@@ -230,7 +230,7 @@ msgstr "{0, plural, other {#명 수신자}}"
 #. placeholder {4}: progress.totalPages
 #: apps/remix/app/components/dialogs/ai-field-detection-dialog.tsx
 msgid "{0, plural, one {Page {1} of {2} - # field found} other {Page {3} of {4} - # fields found}}"
-msgstr "{0, plural, other {페이지 {1}/{2} - 필드 #개 발견됨}}"
+msgstr "{0, plural, other {페이지 {3}/{4} - 필드 #개 발견됨}}"
 
 #. placeholder {0}: progress.recipientsDetected
 #. placeholder {1}: progress.pagesProcessed
@@ -239,7 +239,7 @@ msgstr "{0, plural, other {페이지 {1}/{2} - 필드 #개 발견됨}}"
 #. placeholder {4}: progress.totalPages
 #: apps/remix/app/components/dialogs/ai-recipient-detection-dialog.tsx
 msgid "{0, plural, one {Page {1} of {2} - # recipient found} other {Page {3} of {4} - # recipients found}}"
-msgstr "{0, plural, other {페이지 {1}/{2} - 수신자 #명 발견됨}}"
+msgstr "{0, plural, other {페이지 {3}/{4} - 수신자 #명 발견됨}}"
 
 #. placeholder {0}: detectedRecipients.length
 #: apps/remix/app/components/general/envelope-editor/envelope-editor-recipient-form.tsx
@@ -434,7 +434,7 @@ msgstr "{inviterName}이(가) \"{0}\"을(를) 대신하여 \"{1}\" 문서에 대
 #. placeholder {0}: _(actionVerb).toLowerCase()
 #: packages/email/template-components/template-document-invite.tsx
 msgid "{inviterName} on behalf of \"{teamName}\" has invited you to {0}<0/>\"{documentName}\""
-msgstr "{inviterName}이(가) \"{0}\"을(를) 대신하여 문서 \"{documentName}\"에 대해 귀하께 {recipientActionVerb}하도록 초대했습니다<0/>"
+msgstr "{inviterName}이(가) \"{teamName}\"을(를) 대신하여 문서 \"{documentName}\"에 대해 귀하께 {0}하도록 초대했습니다<0/>"
 
 #: packages/email/templates/document-invite.tsx
 msgid "{inviterName} on behalf of \"{teamName}\" has invited you to {action} {documentName}"
@@ -477,8 +477,8 @@ msgid "{recipientName} {action} a document by using one of your direct links"
 msgstr "{recipientName}님이 귀하의 다이렉트 링크 중 하나를 사용하여 문서를 {action}했습니다."
 
 #: packages/email/templates/document-rejected.tsx
-msgid "{recipientName} has rejected the document '{documentName}'"
-msgstr "{recipientName}님이 '{documentName}' 문서를 거부했습니다."
+msgid "{recipientName} has rejected the document \"{documentName}\""
+msgstr "{recipientName}님이 \"{documentName}\" 문서를 거부했습니다."
 
 #: packages/email/template-components/template-document-recipient-signed.tsx
 msgid "{recipientReference} has completed signing the document."
@@ -14585,8 +14585,8 @@ msgid "You have reached your document limit. <0>Upgrade your account to continue
 msgstr "문서 한도에 도달했습니다. <0>계정을 업그레이드해 계속 사용하세요!</0>"
 
 #: packages/email/templates/document-rejection-confirmed.tsx
-msgid "You have rejected the document '{documentName}'"
-msgstr "'{documentName}' 문서를 거부했습니다."
+msgid "You have rejected the document \"{documentName}\""
+msgstr "\"{documentName}\" 문서를 거부했습니다."
 
 #: apps/remix/app/components/embed/embed-document-rejected.tsx
 #: apps/remix/app/routes/_recipient+/sign.$token+/rejected.tsx
@@ -14671,7 +14671,7 @@ msgstr "문서를 팀으로 이동했습니다"
 #: apps/remix/app/components/dialogs/team-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/token-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/webhook-delete-dialog.tsx
-msgid "You must enter '{deleteMessage}' to proceed"
+msgid "You must enter \"{deleteMessage}\" to proceed"
 msgstr "' {deleteMessage}'를 입력해야 계속 진행할 수 있습니다"
 
 #: apps/remix/app/components/dialogs/envelope-redistribute-dialog.tsx
@@ -14680,8 +14680,8 @@ msgstr "최소 한 개의 항목을 선택해야 합니다"
 
 #: apps/remix/app/components/dialogs/folder-delete-dialog.tsx
 #: apps/remix/app/components/dialogs/organisation-email-domain-delete-dialog.tsx
-msgid "You must type '{deleteMessage}' to confirm"
-msgstr "확인하려면 '{deleteMessage}'를 입력해야 합니다."
+msgid "You must type \"{deleteMessage}\" to confirm"
+msgstr "확인하려면 \"{deleteMessage}\"를 입력해야 합니다."
 
 #: apps/remix/app/components/general/envelope-editor/envelope-editor-fields-page.tsx
 msgid "You need at least one recipient to add fields"

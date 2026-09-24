@@ -41,7 +41,7 @@ export const OrganisationEmailDomainDeleteDialog = ({
 
   const ZDeleteEmailDomainFormSchema = z.object({
     confirmText: z.literal(deleteMessage, {
-      errorMap: () => ({ message: t`You must type '${deleteMessage}' to confirm` }),
+      errorMap: () => ({ message: t`You must type "${deleteMessage}" to confirm` }),
     }),
   });
 
